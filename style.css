@@ -4,3 +4,27 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100,
+    "YTLC" 500;
+}
+
+.drawer-side > ul > li {
+    margin-bottom: 1rem;
+}
+
+.drawer-side > ul > li > a > svg {
+    margin-right: 1rem;
+}
+
+.stat {
+    max-width: 8rem;
+}
+
+.active-link {
+    color: oklch(var(--p));
+}
